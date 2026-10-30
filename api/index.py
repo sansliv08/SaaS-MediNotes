@@ -27,7 +27,7 @@ Reply with exactly three sections with the headings:
 
 
 def user_prompt_for(visit: Visit) -> str:
-    return f"""Create the summary, next steps and draft email for:
+    return f"""Create the summary, next steps and draft email for: 
 Patient Name: {visit.patient_name}
 Date of Visit: {visit.date_of_visit}
 Notes:
